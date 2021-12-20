@@ -19,6 +19,8 @@ public class Controller : MonoBehaviour
     private Camera m_camera;
     private bool m_rotating = false;
 
+    private Vector3 mOffset;
+    private float mZCoord;
     private void Awake()
     {
         m_camera = Camera.main;
@@ -77,8 +79,7 @@ public class Controller : MonoBehaviour
               transform.Rotate(Vector3.right, rotX);
 
           }*/
-    private Vector3 mOffset;
-    private float mZCoord;
+
     private void OnMouseDown()
     {
         mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;

@@ -756,7 +756,6 @@ GameObject:
   - component: {fileID: 1731093418}
   - component: {fileID: 1731093417}
   - component: {fileID: 1731093420}
-  - component: {fileID: 1731093419}
   m_Layer: 0
   m_Name: Body1
   m_TagString: Untagged
@@ -857,21 +856,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!138 &1731093419
-FixedJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731093413}
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!114 &1731093420
 MonoBehaviour:
   m_ObjectHideFlags: 0
